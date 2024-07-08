@@ -1,0 +1,31 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/yhp/Study'
+mkdir -p build
+gcc -I. -I/home/yhp/FreeRTOS/FreeRTOS/Source/include -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/yhp/Study/build\" -ggdb3 -MMD -c console.c -o build/console.o
+ 
+mkdir -p build
+gcc -I. -I/home/yhp/FreeRTOS/FreeRTOS/Source/include -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/yhp/Study/build\" -ggdb3 -MMD -c main.c -o build/main.o
+mkdir -p build//home/yhp/FreeRTOS/FreeRTOS/Source
+gcc -I. -I/home/yhp/FreeRTOS/FreeRTOS/Source/include -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/yhp/Study/build\" -ggdb3 -MMD -c /home/yhp/FreeRTOS/FreeRTOS/Source/queue.c -o build//home/yhp/FreeRTOS/FreeRTOS/Source/queue.o
+mkdir -p build//home/yhp/FreeRTOS/FreeRTOS/Source
+gcc -I. -I/home/yhp/FreeRTOS/FreeRTOS/Source/include -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/yhp/Study/build\" -ggdb3 -MMD -c /home/yhp/FreeRTOS/FreeRTOS/Source/croutine.c -o build//home/yhp/FreeRTOS/FreeRTOS/Source/croutine.o
+mkdir -p build//home/yhp/FreeRTOS/FreeRTOS/Source
+gcc -I. -I/home/yhp/FreeRTOS/FreeRTOS/Source/include -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/yhp/Study/build\" -ggdb3 -MMD -c /home/yhp/FreeRTOS/FreeRTOS/Source/list.c -o build//home/yhp/FreeRTOS/FreeRTOS/Source/list.o
+mkdir -p build//home/yhp/FreeRTOS/FreeRTOS/Source
+gcc -I. -I/home/yhp/FreeRTOS/FreeRTOS/Source/include -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/yhp/Study/build\" -ggdb3 -MMD -c /home/yhp/FreeRTOS/FreeRTOS/Source/stream_buffer.c -o build//home/yhp/FreeRTOS/FreeRTOS/Source/stream_buffer.o
+mkdir -p build//home/yhp/FreeRTOS/FreeRTOS/Source
+gcc -I. -I/home/yhp/FreeRTOS/FreeRTOS/Source/include -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/yhp/Study/build\" -ggdb3 -MMD -c /home/yhp/FreeRTOS/FreeRTOS/Source/event_groups.c -o build//home/yhp/FreeRTOS/FreeRTOS/Source/event_groups.o
+mkdir -p build//home/yhp/FreeRTOS/FreeRTOS/Source
+gcc -I. -I/home/yhp/FreeRTOS/FreeRTOS/Source/include -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/yhp/Study/build\" -ggdb3 -MMD -c /home/yhp/FreeRTOS/FreeRTOS/Source/tasks.c -o build//home/yhp/FreeRTOS/FreeRTOS/Source/tasks.o
+mkdir -p build//home/yhp/FreeRTOS/FreeRTOS/Source
+gcc -I. -I/home/yhp/FreeRTOS/FreeRTOS/Source/include -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/yhp/Study/build\" -ggdb3 -MMD -c /home/yhp/FreeRTOS/FreeRTOS/Source/timers.c -o build//home/yhp/FreeRTOS/FreeRTOS/Source/timers.o
+mkdir -p build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/MemMang
+gcc -I. -I/home/yhp/FreeRTOS/FreeRTOS/Source/include -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/yhp/Study/build\" -ggdb3 -MMD -c /home/yhp/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.c -o build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.o
+mkdir -p build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils
+gcc -I. -I/home/yhp/FreeRTOS/FreeRTOS/Source/include -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/yhp/Study/build\" -ggdb3 -MMD -c /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.c -o build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.o
+mkdir -p build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix
+gcc -I. -I/home/yhp/FreeRTOS/FreeRTOS/Source/include -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/yhp/Study/build\" -ggdb3 -MMD -c /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.c -o build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.o
+mkdir -p build
+gcc build/console.o build/main.o build//home/yhp/FreeRTOS/FreeRTOS/Source/queue.o build//home/yhp/FreeRTOS/FreeRTOS/Source/croutine.o build//home/yhp/FreeRTOS/FreeRTOS/Source/list.o build//home/yhp/FreeRTOS/FreeRTOS/Source/stream_buffer.o build//home/yhp/FreeRTOS/FreeRTOS/Source/event_groups.o build//home/yhp/FreeRTOS/FreeRTOS/Source/tasks.o build//home/yhp/FreeRTOS/FreeRTOS/Source/timers.o build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.o build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.o build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.o -ggdb3 -pthread -o build/study_freertos
+make: Leaving directory '/home/yhp/Study'
+ 

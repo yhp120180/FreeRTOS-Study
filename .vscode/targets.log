@@ -1,0 +1,688 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Jul  8 13:29:23 2024
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 8)
+FREERTOS_DIR := /home/yhp/FreeRTOS/FreeRTOS
+# environment
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
+# default
+.SHELLFLAGS := -c
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 27)
+CPPFLAGS := -I. -I/home/yhp/FreeRTOS/FreeRTOS/Source/include -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/yhp/Study/build\"
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /home/yhp/Study
+# makefile
+SHELL = /bin/sh
+ 
+# makefile (from 'Makefile', line 2)
+BIN := study_freertos
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","osLocale":"en","availableLanguages":{}}
+# environment
+_ = /home/yhp/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/node
+# makefile (from 'Makefile', line 25)
+CFLAGS := -ggdb3
+# makefile (from 'build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.d', line 1)
+MAKEFILE_LIST :=  Makefile build/console.d build/main.d build//home/yhp/FreeRTOS/FreeRTOS/Source/queue.d build//home/yhp/FreeRTOS/FreeRTOS/Source/croutine.d build//home/yhp/FreeRTOS/FreeRTOS/Source/list.d build//home/yhp/FreeRTOS/FreeRTOS/Source/stream_buffer.d build//home/yhp/FreeRTOS/FreeRTOS/Source/event_groups.d build//home/yhp/FreeRTOS/FreeRTOS/Source/tasks.d build//home/yhp/FreeRTOS/FreeRTOS/Source/timers.d build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.d build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.d build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.d
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code
+# makefile (from 'Makefile', line 15)
+INCLUDE_DIRS := -I. -I/home/yhp/FreeRTOS/FreeRTOS/Source/include -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 38)
+OBJ_FILES = $(SOURCE_FILES:%.c=$(BUILD_DIR)/%.o)
+# environment
+PATH = /home/yhp/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1000/
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'Makefile', line 26)
+LDFLAGS := -ggdb3 -pthread
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+WSL2_GUI_APPS_ENABLED = 1
+# environment
+PWD = /home/yhp/Study
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-4f3b3ba5-2149-46d1-9dab-3ac58e07b291.sock
+# environment
+WSL_INTEROP = /run/WSL/14521_interop
+# environment
+PULSE_SERVER = unix:/mnt/wslg/PulseServer
+# makefile (from 'Makefile', line 23)
+SOURCE_FILES := console.c main.c /home/yhp/FreeRTOS/FreeRTOS/Source/queue.c /home/yhp/FreeRTOS/FreeRTOS/Source/croutine.c /home/yhp/FreeRTOS/FreeRTOS/Source/list.c /home/yhp/FreeRTOS/FreeRTOS/Source/stream_buffer.c /home/yhp/FreeRTOS/FreeRTOS/Source/event_groups.c /home/yhp/FreeRTOS/FreeRTOS/Source/tasks.c /home/yhp/FreeRTOS/FreeRTOS/Source/timers.c /home/yhp/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.c /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.c /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.c
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/yhp
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = yhp
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 5)
+BUILD_DIR_ABS := /home/yhp/Study/build
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 40)
+DEP_FILE = $(OBJ_FILES:%.o=%.d)
+# environment
+SHLVL = 2
+# makefile (from 'Makefile', line 1)
+CC := gcc
+# makefile (from 'Makefile', line 4)
+BUILD_DIR := ./build
+# default
+MAKE_VERSION := 4.1
+# environment
+USER = yhp
+# makefile
+.DEFAULT_GOAL := all
+# environment
+NAME = DESKTOP-O8UEIAK
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/user/.vscode/extensions/ms-vscode-remote.remote-wsl-0.88.2
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+HOSTTYPE = x86_64
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 10)
+KERNEL_DIR := /home/yhp/FreeRTOS/FreeRTOS/Source
+# default
+SUFFIXES := 
+# environment
+WAYLAND_DISPLAY = wayland-0
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile (from 'Makefile', line 7)
+FREERTOS_DIR_REL := /home/yhp/FreeRTOS/FreeRTOS
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+WSL_DISTRO_NAME = Ubuntu-18.04
+# variable set hash-table stats:
+# Load=82/1024=8%, Rehash=0, Collisions=12/174=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2080, inode 34664): 11 files, no impossibilities.
+# /home/yhp/FreeRTOS/FreeRTOS/Source (device 2080, inode 52408): 26 files, no impossibilities.
+# /home/yhp/FreeRTOS/FreeRTOS/Source/portable/MemMang (device 2080, inode 69570): No files, no impossibilities so far.
+# /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils (device 2080, inode 69709): No files, no impossibilities so far.
+# /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix (device 2080, inode 69705): No files, no impossibilities so far.
+
+# 37 files, no impossibilities in 5 directories.
+
+# Implicit Rules
+
+build/%.o: %.c Makefile
+#  recipe to execute (from 'Makefile', line 55):
+	-mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -c $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+build//home/yhp/FreeRTOS/FreeRTOS/Source/event_groups.o: /home/yhp/FreeRTOS/FreeRTOS/Source/event_groups.c Makefile /home/yhp/FreeRTOS/FreeRTOS/Source/event_groups.c /home/yhp/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h FreeRTOSConfig.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/projdefs.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/portable.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/portmacro.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/list.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/timers.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/event_groups.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/timers.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '/home/yhp/FreeRTOS/FreeRTOS/Source/event_groups'
+#  Last modified 2024-07-08 13:25:59.454313855
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	-mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -c $< -o $@
+
+build/main.o: main.c Makefile main.c /home/yhp/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h FreeRTOSConfig.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/projdefs.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/portable.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/portmacro.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/list.h console.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2024-07-08 13:25:59.294313858
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	-mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -c $< -o $@
+
+build/study_freertos: build/console.o build/main.o build//home/yhp/FreeRTOS/FreeRTOS/Source/queue.o build//home/yhp/FreeRTOS/FreeRTOS/Source/croutine.o build//home/yhp/FreeRTOS/FreeRTOS/Source/list.o build//home/yhp/FreeRTOS/FreeRTOS/Source/stream_buffer.o build//home/yhp/FreeRTOS/FreeRTOS/Source/event_groups.o build//home/yhp/FreeRTOS/FreeRTOS/Source/tasks.o build//home/yhp/FreeRTOS/FreeRTOS/Source/timers.o build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.o build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.o build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.o
+#  Implicit rule search has not been done.
+#  Last modified 2024-07-08 13:25:59.70431385
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 49):
+	-mkdir -p ${@D}
+	$(CC) $^ ${LDFLAGS} -o $@
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/include/stream_buffer.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+all: study_freertos
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/event_groups.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/include/queue.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all study_freertos clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/portmacro.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.494460162
+#  File has been updated.
+#  Successfully updated.
+
+build//home/yhp/FreeRTOS/FreeRTOS/Source/stream_buffer.o: /home/yhp/FreeRTOS/FreeRTOS/Source/stream_buffer.c Makefile /home/yhp/FreeRTOS/FreeRTOS/Source/stream_buffer.c /home/yhp/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h FreeRTOSConfig.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/projdefs.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/portable.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/portmacro.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/list.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/stream_buffer.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '/home/yhp/FreeRTOS/FreeRTOS/Source/stream_buffer'
+#  Last modified 2024-07-08 13:25:59.424313857
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	-mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -c $< -o $@
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+build//home/yhp/FreeRTOS/FreeRTOS/Source/queue.o: /home/yhp/FreeRTOS/FreeRTOS/Source/queue.c Makefile /home/yhp/FreeRTOS/FreeRTOS/Source/queue.c /home/yhp/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h FreeRTOSConfig.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/projdefs.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/portable.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/portmacro.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/list.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/queue.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '/home/yhp/FreeRTOS/FreeRTOS/Source/queue'
+ 
+#  Last modified 2024-07-08 13:25:59.344313857
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	-mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -c $< -o $@
+
+# Not a target:
+build//home/yhp/FreeRTOS/FreeRTOS/Source/timers.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:25:59.554313853
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:25:59.644313851
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/stream_buffer.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.504460162
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/queue.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.504460162
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:24:40.974318427
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build//home/yhp/FreeRTOS/FreeRTOS/Source/croutine.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:25:59.354313857
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build//home/yhp/FreeRTOS/FreeRTOS/Source/tasks.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:25:59.514313855
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:25:59.584313852
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/include/stack_macros.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/include/projdefs.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build//home/yhp/FreeRTOS/FreeRTOS/Source/list.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:25:59.384313856
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:25:59.604313852
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/include/timers.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+study_freertos: build/study_freertos
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+main.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:02:59.214404818
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/include/semphr.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/include/croutine.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+build//home/yhp/FreeRTOS/FreeRTOS/Source/timers.o: /home/yhp/FreeRTOS/FreeRTOS/Source/timers.c Makefile /home/yhp/FreeRTOS/FreeRTOS/Source/timers.c /home/yhp/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h FreeRTOSConfig.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/projdefs.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/portable.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/portmacro.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/list.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/queue.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/timers.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '/home/yhp/FreeRTOS/FreeRTOS/Source/timers'
+#  Last modified 2024-07-08 13:25:59.564313854
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	-mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -c $< -o $@
+
+# Not a target:
+FreeRTOSConfig.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:02:59.214404818
+#  File has been updated.
+#  Successfully updated.
+
+build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.o: /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.c Makefile /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.c /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/portmacro.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h FreeRTOSConfig.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/projdefs.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/portable.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/list.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/timers.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port'
+#  Last modified 2024-07-08 13:25:59.654313851
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	-mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -c $< -o $@
+
+build//home/yhp/FreeRTOS/FreeRTOS/Source/croutine.o: /home/yhp/FreeRTOS/FreeRTOS/Source/croutine.c Makefile /home/yhp/FreeRTOS/FreeRTOS/Source/croutine.c /home/yhp/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h FreeRTOSConfig.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/projdefs.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/portable.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/portmacro.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/list.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/croutine.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '/home/yhp/FreeRTOS/FreeRTOS/Source/croutine'
+#  Last modified 2024-07-08 13:25:59.364313858
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	-mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -c $< -o $@
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/timers.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.504460162
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/include/list.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+build//home/yhp/FreeRTOS/FreeRTOS/Source/tasks.o: /home/yhp/FreeRTOS/FreeRTOS/Source/tasks.c Makefile /home/yhp/FreeRTOS/FreeRTOS/Source/tasks.c /home/yhp/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h FreeRTOSConfig.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/projdefs.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/portable.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/portmacro.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/list.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/timers.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/stack_macros.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '/home/yhp/FreeRTOS/FreeRTOS/Source/tasks'
+#  Last modified 2024-07-08 13:25:59.534313853
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	-mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -c $< -o $@
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.494460162
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/console.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:25:59.26431386
+#  File has been updated.
+#  Successfully updated.
+
+build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.o: /home/yhp/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.c Makefile /home/yhp/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.c /home/yhp/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h FreeRTOSConfig.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/projdefs.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/portable.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/portmacro.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/list.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '/home/yhp/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3'
+#  Last modified 2024-07-08 13:25:59.584313852
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	-mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -c $< -o $@
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/croutine.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 61):
+	-rm -rf $(BUILD_DIR)
+
+# Not a target:
+console.c:
+ 
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:02:59.214404818
+#  File has been updated.
+#  Successfully updated.
+
+build//home/yhp/FreeRTOS/FreeRTOS/Source/list.o: /home/yhp/FreeRTOS/FreeRTOS/Source/list.c Makefile /home/yhp/FreeRTOS/FreeRTOS/Source/list.c /home/yhp/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h FreeRTOSConfig.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/projdefs.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/portable.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/portmacro.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/list.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '/home/yhp/FreeRTOS/FreeRTOS/Source/list'
+#  Last modified 2024-07-08 13:25:59.384313856
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	-mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -c $< -o $@
+
+# Not a target:
+build//home/yhp/FreeRTOS/FreeRTOS/Source/event_groups.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:25:59.444313855
+#  File has been updated.
+#  Successfully updated.
+
+build//home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.o: /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.c Makefile /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.c /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event'
+#  Last modified 2024-07-08 13:25:59.614313853
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	-mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -c $< -o $@
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/tasks.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.504460162
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.494460162
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/main.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:25:59.294313858
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/list.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.494460162
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/include/portable.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build//home/yhp/FreeRTOS/FreeRTOS/Source/stream_buffer.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:25:59.414313856
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build//home/yhp/FreeRTOS/FreeRTOS/Source/queue.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:25:59.334313857
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/include/event_groups.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.444460164
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+console.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:02:59.214404818
+#  File has been updated.
+#  Successfully updated.
+
+build/console.o: console.c Makefile console.c /home/yhp/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h FreeRTOSConfig.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/projdefs.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/portable.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h /home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/portmacro.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/semphr.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/queue.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/task.h /home/yhp/FreeRTOS/FreeRTOS/Source/include/list.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'console'
+#  Last modified 2024-07-08 13:25:59.27431386
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	-mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -c $< -o $@
+
+# Not a target:
+/home/yhp/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.h:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 12:49:47.494460162
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=62/1024=6%, Rehash=0, Collisions=18/297=6%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 111 / storage = 3998 B / avg = 36 B
+# current buf: size = 8162 B / used = 3998 B / count = 111 / avg = 36 B
+
+# strcache performance: lookups = 321 / hit rate = 65%
+# hash-table stats:
+# Load=111/8192=1%, Rehash=0, Collisions=14/321=4%
+# Finished Make data base on Mon Jul  8 13:29:23 2024
+
+ 
